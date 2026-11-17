@@ -33,11 +33,43 @@
 
 // console.log(eletkorDavid >= eletkorTalaber);
 
-const keresztNev = "Balázs";
-const foglalkozasSzeretne = "kezdő programozó";
-const foglalkozasMarad = "kezdő kábeldugdosó";
-const szuletesiEv = 2009;
-const ev = 2026;
+// const keresztNev = "Balázs";
+// const foglalkozasSzeretne = "kezdő programozó";
+// const foglalkozasMarad = "kezdő kábeldugdosó";
+// const szuletesiEv = 2009;
+// const ev = 2026;
 
-const balazs = keresztNev + " vagyok, " + (ev - szuletesiEv) + " éves, " + foglalkozasSzeretne + " szeretnék lenni!";
-console.log(balazs)
+// const balazs = keresztNev + " vagyok, " + (ev - szuletesiEv) + " éves, " + foglalkozasSzeretne + " szeretnék lenni!";
+// console.log(balazs);
+
+// const balazsUj = `${keresztNev}n vagyok, ${ev-szuletesiEv} éves, ${foglalkozasSzeretne} szeretnék lenni de, ${foglalkozasMarad} maradok`;
+// console.log(balazsUj);
+// console.log("Talabér vagyok\n\haladó programozó.");
+// console.log(`Talabér vagyok
+// haladó programozó`);
+
+// const kor = 16;
+// const elegIdos = kor >=18;
+
+// if (elegIdos){
+//     console.log(`Teofil ihat bort.🍷`);
+// }
+// else {
+//     const evekHatra = 18- kor;
+//     console.log(`Teofil nem ❌ ihat bort 🍷, várnia kell ${evekHatra} évet. ⌛`)
+// };
+
+const szuletesiEv = 2002;
+let szazad;
+
+if(szuletesiEv <= 2000){
+    szazad = 20;
+    console.log(`${szazad} században születtél.`)
+}
+else{
+    szazad = 21;
+    console.log(`${szazad} században születtél.`)
+}
+
+console.log(szazad)
+

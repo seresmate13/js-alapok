@@ -59,17 +59,45 @@
 //     console.log(`Teofil nem ❌ ihat bort 🍷, várnia kell ${evekHatra} évet. ⌛`)
 // };
 
-const szuletesiEv = 2002;
-let szazad;
+// const szuletesiEv = 2002;
+// let szazad;
 
-if(szuletesiEv <= 2000){
-    szazad = 20;
-    console.log(`${szazad} században születtél.`)
+// if(szuletesiEv <= 2000){
+//     szazad = 20;
+//     console.log(`${szazad} században születtél.`)
+// }
+// else{
+//     szazad = 21;
+//     console.log(`${szazad} században születtél.`)
+// }
+
+// console.log(szazad)
+
+// const kor = 18;
+
+// if (kor === 18) console.log("Most lettél nagykorú.");
+
+// console.log(18 === 18);
+// console.log(18 == 18);
+// console.log(18 === "18");
+// console.log(18 == "18");
+
+const kedvenc = Number(prompt("Mi a kedvnec számod?"));
+console.log(kedvenc, typeof kedvenc);
+
+if (kedvenc === 23){
+    console.log("A 23 egy nagyszerű szám.");
+}
+else if (kedvenc === 7 ){
+    console.log("A 7 id egy jó szám.");
+}
+else if (kedvenc === 27){
+    console.log("A 27 a legjobb szám.")
 }
 else{
-    szazad = 21;
-    console.log(`${szazad} században születtél.`)
+    console.log("Más számot válazstottál.")
 }
 
-console.log(szazad)
-
+if (kedvenc !== 27){
+    console.log("Nem értem miért nem 27-et választottál")
+}

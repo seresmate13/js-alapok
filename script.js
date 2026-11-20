@@ -117,13 +117,42 @@
 // console.log(!a && b);
 // console.log(a && !b);
 
-const hasDriverLicence = true;
-const hasGoodVision = true;
-const isTired = false; 
+// const hasDriverLicence = true;
+// const hasGoodVision = true;
+// const isTired = false; 
 
-const shouldDrive = hasDriverLicence && hasGoodVision && !isTired;
-if (shouldDrive){
-    console.log("Te vezethetsz.");
-} else{
-    console.log("Neked nem kellene vezetned.");
-};
+// const shouldDrive = hasDriverLicence && hasGoodVision && !isTired;
+// if (shouldDrive){
+//     console.log("Te vezethetsz.");
+// } else{
+//     console.log("Neked nem kellene vezetned.");
+// };
+
+// const day = "hétfő";
+// switch(day) {
+//     case "hétfő":
+//         console.log("Kezdődik a hét dupla főigazgató úr óra.");
+//         break;
+//     case "kedd":
+//         console.log("Dupla adatbázis.");
+//         break;
+//     case "szerda":
+//     case "csütörtök":
+//         console.log("Dupla magyar.");
+//         break;
+//     case "péntek":
+//         console.log("Kis szombat.");
+//         break;
+//     case "szombat":
+//     case "vasárnap":
+//         console.log("Hétvége , alig várom az iskolát.")
+//         break;
+//     default:
+//         console.log("Érvénytelen nap.")
+// }
+
+const age = 171;
+age >= 18 ? console.log("Szeretk sört inni.") : console.log("Szeretek kubut inni.");
+
+const drink = age >= 18 ? "sör" :"kubu";
+console.log(drink)

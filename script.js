@@ -1,3 +1,5 @@
+"use strict";
+
 // console.log("Sikeres összekötés ✅");
 
 // // Alapvető perátorok
@@ -117,13 +119,34 @@
 // console.log(!a && b);
 // console.log(a && !b);
 
-const hasDriverLicence = true;
-const hasGoodVision = true;
-const isTired = false; 
+// const hasDriverLicence = true;
+// const hasGoodVision = true;
+// const isTired = false; 
 
-const shouldDrive = hasDriverLicence && hasGoodVision && !isTired;
-if (shouldDrive){
-    console.log("Te vezethetsz.");
-} else{
-    console.log("Neked nem kellene vezetned.");
-};
+// const shouldDrive = hasDriverLicence && hasGoodVision && !isTired;
+// if (shouldDrive){
+//     console.log("Te vezethetsz.");
+// } else{
+//     console.log("Neked nem kellene vezetned.");
+// };
+
+// let hasDriversLicence = false;
+// const passTest = true;
+
+// if (passTest){
+//     hasDriversLicence = true;
+// }
+
+// if (hasDriversLicence){
+//     console.log(`Vezethetek.`)
+// }
+
+// const interface = `hangkártya`;
+// const if = `hangkártya`;
+// const private = 23;
+
+function logger(){
+    console.log(`A nevem talabér`)
+}
+
+logger();

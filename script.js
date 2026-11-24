@@ -153,6 +153,8 @@
 // logger();
 // logger();
 
+// függvények
+
 // function fruitProcessor(apples,oranges){
 //     // console.log(apples,oranges);
 //     const juice = `Gyümölcslé ${apples} db almából ${oranges} db narancsból`;
@@ -165,9 +167,47 @@
 // const appleOrangeJuice = fruitProcessor(2,4);
 // console.log(appleOrangeJuice);
 
-function calage(birthday){
-    return 2026 - birthday;
-}
+// console.log(calage1(2009));
 
-const age1 = calage(2009);
-console.log(age1);
+
+// //FÜGGVÉNYDEKRALÁCIÓ
+// function calage1(birthday){
+//     return 2026 - birthday;
+// }
+
+// const age1 = calage1(2009);
+// console.log(age1);
+
+// //FÜGGVÉNYKIFEJEZÉS
+// const calcAge2 = function(birthdayYear){
+//     return 2026 - birthdayYear
+// };
+
+// const age2 = calcAge2(2009);
+// console.log(age2);
+
+// // NYÍLFÜGGVÉNYEK
+
+// const calcAge3 = birthYear => 2026 - birthYear;
+
+// const age3 = calcAge3(1999);
+// console.log(age3);
+
+// const yearsUntilRetirement = birthYear => {
+//     const age = 2026 - birthYear;
+//     const retirement = 65 - age;
+//     return retirement;
+// }
+
+// console.log(yearsUntilRetirement(2009))
+
+const yearsUntilRetirement = (birthYear,firstName) => {
+    const age = 2026 - birthYear;
+    const retirement = 65 - age;
+    return `${firstName} ${retirement} év múlva mehet nyudíjba`;
+}
+console.log(yearsUntilRetirement(2009,"Máté"))
+
+
+
+

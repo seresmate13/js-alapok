@@ -2,7 +2,7 @@
 
 // console.log("Sikeres összekötés ✅");
 
-// // Alapvető perátorok
+// Alapvető perátorok
 
 // const now = 2026;
 // const eletkorDavid = now - 2009;
@@ -21,7 +21,7 @@
 
 // let x = 10 + 5;
 
-// // x = x + 10;
+// x = x + 10;
 
 // x += 10;
 // x *= 4;
@@ -145,8 +145,29 @@
 // const if = `hangkártya`;
 // const private = 23;
 
-function logger(){
-    console.log(`A nevem talabér`)
+// function logger(){
+//     console.log(`A nevem talabér`)
+// }
+
+// logger();
+// logger();
+// logger();
+
+// function fruitProcessor(apples,oranges){
+//     // console.log(apples,oranges);
+//     const juice = `Gyümölcslé ${apples} db almából ${oranges} db narancsból`;
+//     return juice;
+// }
+
+// const applejuice = fruitProcessor(5,0);
+// console.log(applejuice);
+
+// const appleOrangeJuice = fruitProcessor(2,4);
+// console.log(appleOrangeJuice);
+
+function calage(birthday){
+    return 2026 - birthday;
 }
 
-logger();
+const age1 = calage(2009);
+console.log(age1);

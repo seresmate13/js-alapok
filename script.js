@@ -197,17 +197,50 @@
 //     const age = 2026 - birthYear;
 //     const retirement = 65 - age;
 //     return retirement;
+// };
+
+// console.log(yearsUntilRetirement(2009));
+
+// const yearsUntilRetirement = (birthYear,firstName) => {
+//     const age = 2026 - birthYear;
+//     const retirement = 65 - age;
+//     return `${firstName} ${retirement} év múlva mehet nyudíjba`;
+// };
+// console.log(yearsUntilRetirement(2009,"Máté"));
+
+// function multiplyByFour(fruit){
+//     return fruit * 4;
+// };
+
+// function fruitProcessor(apples,oranges){
+//     const applepieces = multiplyByFour(apples);
+//     const orangepieces = multiplyByFour(oranges);
+//     const juice = `Gyümölcslé ${applepieces} almadarabból és ${orangepieces} narancsdarabból`;
+//     return juice;
+// };
+
+// console.log(fruitProcessor(2,3));
+
+// const calcAge = function(birthYear){
+//     return 2026 - birthYear;
 // }
 
-// console.log(yearsUntilRetirement(2009))
+// const yearsUntilRetirement = (birthYear,firstName) => {
+//     const age = 2026 - birthYear;
+//     const retirement = 65 - age;
+//     if (retirement > 0){
+//         console.log( `${firstName} ${retirement} év múlva mehet nyudíjba`);
+//         return retirement;
+//     } else {
+//         console.log( `${firstName} már nyudíjba ment`);
+//         return -1;
+//     }
+// };
 
-const yearsUntilRetirement = (birthYear,firstName) => {
-    const age = 2026 - birthYear;
-    const retirement = 65 - age;
-    return `${firstName} ${retirement} év múlva mehet nyudíjba`;
-}
-console.log(yearsUntilRetirement(2009,"Máté"))
+// console.log(yearsUntilRetirement(2009,"Máté"));
+// console.log(yearsUntilRetirement(1960,"Máté"));
 
+const friends = [`Talabér`,`Tekla`,`Tóbiás`,`Frédi`,`Balázs`,`Teofil`];
+console.log(friends);
 
-
-
+console.log(friends[2])

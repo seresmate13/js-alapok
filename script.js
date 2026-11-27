@@ -284,3 +284,17 @@ console.log(friends);
 const shifted = friends.shift();
 console.log(shifted);
 console.log(friends);
+
+console.log(friends.indexOf("Tóbiás"));
+console.log(friends.indexOf("Dávid"));
+
+console.log(friends.includes("Tekla"));
+
+const nev = "Talabér";
+
+if (friends.includes(nev)){
+    console.log(`A ${nev} szerepel a tömbbe, és az ${friends.indexOf(nev)}. indexen.`);
+}
+else{
+    console.log(`A ${nev} nem szerepel a tömbbe.`);
+};

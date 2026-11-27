@@ -240,7 +240,47 @@
 // console.log(yearsUntilRetirement(2009,"Máté"));
 // console.log(yearsUntilRetirement(1960,"Máté"));
 
-const friends = [`Talabér`,`Tekla`,`Tóbiás`,`Frédi`,`Balázs`,`Teofil`];
+// const friends = [`Talabér`,`Tekla`,`Tóbiás`,`Frédi`,`Balázs`,`Teofil`];
+// console.log(friends);
+
+// console.log(friends[2]);
+// console.log(friends.length);
+// console.log(friends[friends.length - 1]);
+
+// friends[2] = "Olivér";
+// console.log(friends);
+
+// const firstName = "János";
+// const janos = [firstName, "Kovács" , 1991, "Kábeldugdosó", friends, ];
+// console.log(janos);
+
+// console.log(janos[janos.length -1].length);
+
+// const calAge = function(BirthYear){
+//     return 2026 - BirthYear;
+// };
+
+// const years = [1987,1967,2009,2020,2011,2027];
+
+// console.log(calAge(years));
+
+// console.log(calAge(years[years.length - 1]))
+
+const friends = [`Talabér`,`Tekla`,`Tóbiás`];
 console.log(friends);
 
-console.log(friends[2])
+const newLenght = friends.push("Martin");
+console.log(friends);
+console.log(newLenght);
+
+const newLenght2 = friends.unshift("Zsombor");
+console.log(friends);
+console.log(newLenght2);
+
+const popped = friends.pop();
+console.log(popped);
+console.log(friends);
+
+const shifted = friends.shift();
+console.log(shifted);
+console.log(friends);
